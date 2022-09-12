@@ -38,3 +38,14 @@ node app.js
 #run the following on your browser command line:
 http://localhost:3000/github_api/repoTree?owner=YOURUSERNAME&repo=YOURREPONAME
  
+ 
+###Other notes
+
+1.	note that this solution uses PAT that limits me to 1000 requests per hour to repository. I would use github apps that has higher rate limit.
+
+2.      The assignment required a solution that can be used in production. If I had more time, I would have added:
+                a.	Error handling & test (checking the JSONs are valid, validate inputs…) and health check-ins
+                b.	Logs management & documentation – I would add a JSON format logs to allow better queries and KPIs measurement down the road.
+                c.	We could have used caching to improve the mechanism. For example, I could have set a key-value caching (like Redis) to store the responses of the API requests by their SHAs 
+
+
