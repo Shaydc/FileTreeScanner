@@ -36,5 +36,5 @@ node app.js
 ```
 
 #run the following on your browser command line:
-http://localhost:3000/github_api/repoTree?owner=<username>&repo=<reponame>
+http://localhost:3000/github_api/repoTree?owner=YOURUSERNAME&repo=YOURREPONAME
  
