@@ -39,8 +39,10 @@ node app.js
 http://localhost:3000/github_api/repoTree?owner=YOURUSERNAME&repo=YOURREPONAME
  
  
-###Other notes
+        
 
+## &nbsp;**Other Notes**
+---------------------
 1.	note that this solution uses PAT that limits me to 1000 requests per hour to repository. I would use github apps that has higher rate limit.
 
 2.      The assignment required a solution that can be used in production. If I had more time, I would have added:
